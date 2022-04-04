@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap');
+
+:root{
+    --black: #191919;
+    --white:#FFFFFFFF;
+    --purple: rgb(117, 41, 149);
+    --blue:#00B2B1;
+    --gray:#828282;
+    --light: #f3f3f3;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.btn-primary{
+    color: #fff;
+    background-color: var(--blue);
+    border-color: var(--blue);
+}
+.btn-primary:hover{
+    color: #fff;
+    border-color: var(--blue);
+    background-color:#04cece;
+}
+.btn-outline-primary{
+    color: var(--purple);
+    border-color:  var(--purple);
+}
+.btn-outline-primary:hover{
+    color: #fff;
+    border-color:  var(--purple);
+    background-color:var(--purple);
+}
+
+.header-logo img{
+    max-width: 300px;
+}
+.btn-outline-success{
+    color: var(--purple);
+    background-color: #fff;
+    border-color: var(--purple);
+}
+.btn-outline-success:hover{
+    color: #fff;
+    background-color: var(--purple);
+    border-color: #fff;
+}
+.nav-link:hover{
+    color: var(--blue);
+}
+.agenda-cita{
+    background-image: url(../img/fondo.jpg);
+    padding: 3rem;
+}
+.agenda-cita h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.agenda-cita h3{
+    font-size: 1rem;
+}
+.agenda-promo{
+    background-color: var(--purple);
+    padding: 3rem;
+}
+.agenda-promo h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--white);
+    text-shadow: 3px 3px 3px var(--black);
+}
+.title-seccion{
+    color: var(--purple);
+    text-shadow: 2px 3px 3px var(--gray);
+}
+
+.card img{
+    max-width: 200px;
+}
+.card-img-top {
+    margin: 0 auto;
+}
+.bipeppa{
+    color: var(--white);
+    font-size: 50px;
+}
+.footer{
+    color: var(--white);
+    overflow: hidden;
+    background:rgba(117, 41, 149,0.5) url(../img/fondo.jpg);
+    background-blend-mode: darken;
+}
+.footer li{
+    color: var(--white);
+}
+.card-title{
+    color: var(--purple);
+    font-weight: 700;
+}
+.card-subtitle{
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px var(--gray);
+}
+
+.letra{
+    color: #191919;
+}
+.tns{
+    font-size: 30px;
+    color: var(--purple);
+    text-shadow: 1px 1px 2px var(--black);
+}
+
+.gato h3{
+    color: var(--blue);
+    font-weight: bold;
+    text-shadow: 1px 1px 2px var(--light);
+}
+.gato h4{
+    color: var(--black);
+    font-weight: bold;
+    text-shadow: 1px 1px 2px var(--light);
+}
+
+.tip-img{
+    border-radius: 30px;
+}
+.container-contact{
+    background-image: url(/assets/img/fondo.jpg);
+}
+
