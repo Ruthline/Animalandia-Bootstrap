@@ -144,7 +144,7 @@ html{
     color: var(--purple);
 }
 .caja-login{
-    background-color: var(--light);
+    width: 700px;
     border-radius: 0.2em;
     box-shadow: 1px 1px 2px var(--gray);
 }
@@ -213,7 +213,9 @@ html{
 .barra-lateral a {
     color: #fff;
 }
-
+table{
+    column-width: 10px;
+}
 .row{
     margin-right: 0;
 }
