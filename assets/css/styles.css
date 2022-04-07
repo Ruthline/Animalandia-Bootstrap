@@ -36,7 +36,7 @@ html{
 }
 
 .header-logo img{
-    max-width: 300px;
+    max-width: 250px;
 }
 .btn-outline-success{
     color: var(--purple);
@@ -81,8 +81,13 @@ html{
     max-width: 200px;
 }
 .card-img-top {
+    
     margin: 0 auto;
 }
+.serv{
+    width: 150px;
+}
+
 .bipeppa{
     color: var(--white);
     font-size: 50px;
@@ -128,6 +133,8 @@ html{
 
 .tip-img{
     border-radius: 30px;
+    width: 150px;
+    height: 150px;
 }
 .container-contact{
     background-image: url(../img/fondo.jpg);
@@ -144,7 +151,7 @@ html{
     color: var(--purple);
 }
 .caja-login{
-    width: 700px;
+    background-color: var(--light);
     border-radius: 0.2em;
     box-shadow: 1px 1px 2px var(--gray);
 }
@@ -164,6 +171,8 @@ html{
     margin: 0;
 }
 .waste{
+    color: var(--white);
+    font-size: 15px;
     border-radius: 10px;
     background: rgba(184, 3, 3, 0.959);
 }
@@ -199,6 +208,9 @@ html{
 }
 .th{
     color: white;
+}
+.tr, .th{
+    column-width: 10px;
 }
 /*BARRA LATERAL*/
 
