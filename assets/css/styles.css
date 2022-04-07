@@ -157,12 +157,12 @@ html{
 }
 
 .golden{
-    width: 50px;
+    width: 20px;
     border: 2px solid var(--purple);
 }
 
 .logo-dash{
-    width: 250px;
+    width: 180px;
 }
 
 .barra {
@@ -289,6 +289,7 @@ table{
     .dropdown-menu {
         margin: 20px -79px 0px;
     }
+    
 }
 
 @media screen and (max-width:575px) {
@@ -309,6 +310,8 @@ table{
         font-size: 16px;
         overflow: visible;
     }
+   
+    
 }
 
 .formulariorecursos {
